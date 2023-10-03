@@ -18,4 +18,12 @@ function nameLengthIsValid($nameToValid){
     return $responses;
 
 }
+
+    function addSalt($nameToSalt){
+        $salt='unPeuDeSel123!';
+        $saltedName=$salt.$nameToSalt.$salt;
+
+        return $saltedName;
+    }
+
 ?>

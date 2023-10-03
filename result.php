@@ -16,5 +16,8 @@ var_dump($nameLengthIsValid);
 if ($nameLengthIsValid['isValid']) {
     
 }
+echo'</br>';
+$saltedName = addSalt($_POST['fname']);
+var_dump($saltedName);
 }
 ?>
